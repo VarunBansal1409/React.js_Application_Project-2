@@ -1,4 +1,12 @@
-# React.js_Application_Project
-"This React app provides a simple popup form for creating custom segments. Clicking “Save segment” opens a modal where users can enter a segment name and choose schema fields like First Name, Last Name, Gender, Age, Account Name, City, and State. Selected fields can be added with “+Add new schema,” and each added schema appears as its own dropdown showing only the remaining unselected options.
+# React + Vite
 
-The app uses basic React state management, dynamic dropdown updates, and conditional rendering to handle the segment-building process. When the user clicks “Save the segment,” the app sends the data to the server in the required JSON format containing the segment name and the selected schema list."
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

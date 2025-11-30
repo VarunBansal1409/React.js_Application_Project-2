@@ -1,0 +1,73 @@
+{
+  "segment": [
+    {
+      "id": "16ce",
+      "segment_name": "efefefe",
+      "schema": [
+        {
+          "first_name": "First Name"
+        },
+        {
+          "last_name": "Last Name"
+        },
+        {
+          "gender": "Gender"
+        },
+        {
+          "age": "Age"
+        }
+      ]
+    },
+    {
+      "id": "f425",
+      "segment_name": "",
+      "schema": [
+        {
+          "first_name": "First Name"
+        }
+      ]
+    },
+    {
+      "id": "67f5",
+      "segment_name": "wefcefe",
+      "schema": [
+        {
+          "gender": "Gender"
+        }
+      ]
+    },
+    {
+      "id": "a9ed",
+      "segment_name": "wefcefe",
+      "schema": [
+        {
+          "gender": "Gender"
+        }
+      ]
+    },
+    {
+      "id": "583d",
+      "segment_name": "ewefew",
+      "schema": [
+        {
+          "first_name": "First Name"
+        },
+        {
+          "age": "Age"
+        }
+      ]
+    },
+    {
+      "id": "3bb9",
+      "segment_name": "frsgsgrg",
+      "schema": [
+        {
+          "gender": "Gender"
+        },
+        {
+          "account_name": "Account Name"
+        }
+      ]
+    }
+  ]
+}
