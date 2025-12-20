@@ -1,12 +1,4 @@
-# React + Vite
+# Save Segment App
+"This React application provides a simple and interactive way to create and save a segment using a modal popup. Users can enter a segment name and add multiple schemas dynamically from a dropdown list. Once a schema is added, it appears in a highlighted section and is removed from the available options to prevent duplicate selections.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application uses React state to manage dynamic dropdowns, form inputs, and conditional rendering. On clicking “Save the segment”, the selected data is formatted into the required JSON structure and sent to the server, demonstrating practical handling of dynamic forms and data submission in React."
